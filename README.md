@@ -16,9 +16,6 @@ Step 8: Display the predicted CO₂ emission.
 
 ## Program:
 ```
-#Developed by: Ashwiin D J
-#Reference No: 26012646
-
 import pandas as pd
 from sklearn import linear_model
 df = pd.read_csv("carsemission.csv")
@@ -33,6 +30,7 @@ predictedCO2 = regr.predict(input_data)
 print('Predicted CO2 for the corresponding weight and volume:', predictedCO2)
 ```
 ## Output:
+<img width="737" height="390" alt="image" src="https://github.com/user-attachments/assets/846c84e8-4028-4850-bc6f-b23cfb0d7574" />  
 <img width="681" height="75" alt="image" src="https://github.com/user-attachments/assets/b213877d-6259-47cf-937e-911f0baa64d1" />
 
 ## Result
